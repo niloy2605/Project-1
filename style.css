@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} 
+/* nav start */
+nav{
+    background-color: #02918c;
+
+}
+nav .continer{
+    width: 1170px;
+    margin: auto;
+   
+}
+:root{
+    --primary-color: #02918c;
+    --color: #7e8287 ;
+}
+nav .continer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    padding: 0 25px;
+}
+
+nav ul li a:hover{
+    color: rgb(197, 210, 17);
+}
+
+/* nav end */
+
+/* home start */
+#home{
+    background-image: url(image/MYFOLIO\ \(1\).png);
+    height: 729px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home .continer .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 729px;
+    color: #ffffff;
+
+}
+
+#home .continer .row h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 28px;
+    font-weight: 800;
+}
+#home .continer .continer h4{
+    font-size: 30px;
+}
+
+#home .continer .row img{
+    padding: 52px 0;
+}
+#home .continer .row button{
+    padding: 19px 42px;
+    border: none;
+    background-color:#cfc91d ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: o;
+   
+}
+#home .continer .row button:hover{
+    background-color: #706fd3;
+    color: white;
+}
+/* home end */
+
+/* about start */
+#about{
+    padding: 98px 0;
+}
+ #about .continer .header{
+    text-align: center;
+    width: 883px;
+    margin: auto;
+ }
+ #about .continer .header h1{
+    color: var(--primary-color);
+    font-size: 46 px;
+    font-weight: 800;
+    text-transform: uppercase;
+ }
+
+#about .continer .header span{ 
+    padding: 36px 0;
+    display:inline-block;
+}
+#about .continer .header p{
+    font-size: 16px;
+    color: var(--color);
+    line-height: 32px;
+}
+#about .continer .header b{
+    font-size: 23px;
+}
+#about .continer .card{ 
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid var(--color);  
+}
+#about .continer .card:last-child{
+    border: none;
+}
+#about .continer .card h4{
+    padding: 34px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--color);
+}
+#about .continer .card p{
+      font-size: 11px;
+      padding: 0 60px;
+      color: var(--color);
+}
+#about .continer .row{
+    padding-top: 84px;
+}
+/* about end */
+/* contact start */
+#contact{
+    background-image:url(image/MYFOLIO\ \(7\).png) ;
+    height: 760px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#contact .continer .top h1{
+     padding:41px 0;
+     color: #02918c;
+     font-weight: 8oo;
+     font-size: 46px;
+     margin-left:80px;
+     text-transform: uppercase;
+}
+#contact .continer .top span{
+    padding: 25px 0;
+    display: inline-block;
+    margin-left:80px;
+
+    
+}
+#contact .continer .top p{
+     width: 45%;
+    color: var(--color);
+    font-size: 16px;
+    margin-left:80px;
+    line-height: 28px;
+    /* padding: 97px; */
+
+}
+#contact .continer .box{
+     width: 50%;
+     padding: 60px;
+     margin-left: 20px; 
+
+}
+
+#contact .continer .box h4{
+    padding: 18px 0;
+
+}
+#contact .continer .box p{
+    width: 50%;
+    line-height: 32px;
+    color: var(--color);
+   
+}
+
+/* contact end */
